@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    display: inline-block;
+}
+
+ .box1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 10px;
+
+}
+ .box1:hover{
+    background-color: green;
+}
+.box2{
+    margin-left: 100px;
+    width: 400px;
+    height: 250px;
+    background-color: aqua;
+    border: 2px solid red;
+    font-size: 34px;
+    overflow: hidden;
+    
+}
+.box3{
+    margin-left: 100px;
+    background-color: red;
+    border: 3px solid aqua;
+    position: relative; 
+    width: 200px;
+    height: 200px;
+}
+ .box-first{
+    background-color: aqua;
+    width:150px;
+    height: 150px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+.box-second{
+    width: 90px;
+    height: 90px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+} 
